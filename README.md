@@ -5,6 +5,9 @@ The repo addresses the following Kaggle Competition:
 https://www.kaggle.com/c/competitive-data-science-predict-future-sales
 Please download the raw data from there if you would like to run the notebook code.
 
+For the prior submissions (unorganized data) for Springboard, please refer to the Kaggle Predict Future Sales repo:
+https://github.com/huynhe/Kaggle-Predict-Future-Sales
+
 This is a clean, organized version of the Kaggle Predict Future Sales repository.
 The code here utilizes the same code, but is separated into three notebooks for organization purposes.
 
