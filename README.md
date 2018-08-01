@@ -25,3 +25,8 @@ The last of the notebooks is labeled "Building the Model.ipynb". This notebook u
 test the linear regression model. A total of 5 different models were made (each use different variables) and applied
 to the modified test data. The associated visualizations and kaggle results can be found in the final report and presentation
 slides. 
+
+An additional notebook was created as an add-on to "Building the Model.ipynb". This notebook deviates from the previous by its
+application of Pipeline and OneHotEncoder (in place of dummy variables) from sklearn.preprocessing. This model 
+outperformed all the previous models exponentially (10x). I expect it to be due to the OneHotEncoder preprocessing step which 
+assigned a value to all my categorical columns instead of me manually binning the values together.
