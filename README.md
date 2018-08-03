@@ -29,4 +29,7 @@ slides.
 An additional notebook was created as an add-on to "Building the Model.ipynb". This notebook deviates from the previous by its
 application of Pipeline and OneHotEncoder (in place of dummy variables) from sklearn.preprocessing. This model 
 remarkably outperformed all the previous models by at least 10x. I expect it to be due to the OneHotEncoder preprocessing step which 
-assigned a value to all my categorical columns instead of me manually binning the values together.
+assigned a value to all my categorical columns instead of me manually binning the values together. SGDRegressor and XGBRegressor were 
+applied with the data. They yielded slightly higher scores than the LinearRegression. I also attempted to apply DecisionTreeRegressor
+and RandomForestRegressor, but the data size was too large (+1.6mil entries AFTER grouping) to apply to the algorithms with my
+computer's computational power.
